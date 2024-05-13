@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music.net</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        body{
+            background-color: rgba(18, 0, 53, 0.911);
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .all-body {
+	        width: 99mm;
+            height: 139mm;
+            border-radius: 30px;
+            margin-top: 14mm;
+            border: solid 10px;
+            border-color: rgba(121, 111, 141, 0.911);
+            background-color: rgba(18, 0, 53, 0.911);
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            justify-content: space-between;
+        } 
+        .box {
+            line-height: 30px;
+	        width: 270px;
+	        padding-bottom: 19px;
+	        margin: 9px;
+	        color: rgb(9, 221, 73);
+	        font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+        }
+        .download_button{
+            color: rgb(153, 235, 46);
+            float: right;
+            text-decoration: none;
+            display: inline-block;
+            justify-content: space-around;
+            border-width: 6px;
+        }
+        .img-logo{
+            height: 12mm;
+            width: 12mm;
+            border-radius: 40px;
+            margin: 10px;
+            margin-top: 16px;
+        }
+        .log{
+            display: flex;
+            background-color: rgba(18, 0, 53, 0.911);
+            border-radius: 20px;
+        }
+        .text{
+            margin: 17px;
+            color: blueviolet;
+            padding: 10px;
+        }
+        .all-logo{
+            padding: 10px;
+        }
+        .logo{
+            color: green;
+        }
+        .nice-wrd{
+            font-size: 27px;
+            color: rgb(134, 234, 11);
+            font-family: pacifico, cursive;
+            margin: 3px;
+            margin-top: 10px;
+            width: 200mm;
+        }
+        .foot{
+            float: right;
+            top: 80px;
+            right: 10px;
+            width: 700px;
+            margin: 60px;
+            margin-top: -135mm;
+        }
+        a:link{
+            text-decoration: none;
+        }
+        .lin{
+            font-size: 20px;
+            margin-top: -20px;
+        }
+        .lower{
+            display: flex;
+            margin: 4px;
+        }
+        .material-symbols-outlined{
+            margin-top: -4px;
+        }
+        .border{
+            border: solid 10px;
+            width: 39mm;
+            height: 43mm;
+            border-radius: 20px;
+            background-color: rgba(18, 0, 53, 0.911);
+            border-color: rgba(121, 111, 141, 0.911);
+        }
+        .img{
+            width: 31mm;
+            height: 36mm;
+            background-color: rgb(235, 140, 17);
+            object-fit: fill;
+        }
+        .border .btn{
+            margin-top: 18px;
+            float: right;
+            margin-right: 10px;
+        }
+        .txt{
+            margin: 20px;
+            color: gold;
+        }
+        .ht{
+            line-height: 10px;
+        }
+        .al-body{
+          margin-top: 20mm;
+          margin-right: 30px;
+          float: right;
+        }
+        .btn{
+            background-color: rgb(134, 234, 11);
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="web">
+    <div class="all-logo">
+    <div class="log">
+        <img src="360_F_568867614_1fqZVYONX1GDUql7ZCWj98LVsOPaKOkk.jpg" alt="img" class="img-logo">
+        <label class="logo"><h1><b>B music</b></h1></label> <p></p>
+    </div>
+    <p></p>
+    <div class="all-body">
+        <h1 class="text">Top trends</h1>
+        <p></p>
+          <div class="box">
+              <div class="title_singer">1.Bermuda<span> Davis-D feat Bulldog Bushari</span></div><span class="download_button"><a class="download_button" href="bana.html"><span class="material-symbols-outlined">
+                play_arrow
+                </span></a></span>
+          </div>
+             <div class="box">
+                <div class="title_singer">2.Havana by <span>camilla cabello feat young thug</span></div><span class="download_button"><a class="download_button" href="prototype4.html"><span class="material-symbols-outlined">
+                    play_arrow
+                    </span></a></span>
+             </div>
+           <div class="box">
+               <div class="title_singer">3.kings-Queens by<span>Ava max</span></div><span class="download_button"><a class="download_button" href="ava max.html"><span class="material-symbols-outlined">
+                play_arrow
+                </span></a></span>
+           </div>
+          <div class="box">
+            <div class="title_singer">4.Dadju _ Tayc - Acte IV<span>I love you</span></div><span class="download_button"><a class="download_button" href="i love u.html"><span class="material-symbols-outlined">
+                play_arrow
+                </span></a></span>
+          </div>
+          <div class="box">
+            <div class="title_singer">5.clandestina <span>by FILV ft emma</span></div><span class="download_button"><a class="download_button" href="clandestina.html"><span class="material-symbols-outlined">
+                play_arrow
+                </span></a></span><br>
+          </div>
+          <div class="lower">
+            <label for="" class="lin"><a href="list.html">See all<span class="material-symbols-outlined">
+              chevron_right
+              </span></a></label>
+          </div>
+    </div>
+    <div class="foot">
+      <div class="nice-wrd"><p>If you want to keep your brain engaged througout the aging process, listening<br> 
+        to or play musicis a great tool. It provides a total brain workout.<br> 
+        Research has shown that listening to music can reduce anxienty blood pressure<br>
+        and pain as well as improve sleep quality, mood,mental alertness and memory.<br>
+        music has shaped cultules and society around the world for generation. It has the <br>
+        power to alter one's mood, change perception and insipire change.</p>
+      </div>
+      <div class="al-body">
+        <div class="border">
+          <div class="ht">
+             <p class="txt">Bermuda</p>
+             <p class="txt">by davis D</p>
+          </div>   
+             <button class="btn"><a href="bana.html">play</a></button>
+        </div>
+      </div>
+      <div class="al-body">
+          <div class="border">
+            <div class="ht">
+               <p class="txt">Havana</p>
+               <p class="txt">camilla </p>
+            </div>   
+               <button class="btn"><a href="prototype4.html">play</a></button>
+          </div>
+        </div>
+        <div class="al-body">
+          <div class="border">
+            <div class="ht">
+               <p class="txt">kings&Queen</p>
+               <p class="txt">ava max</p>
+            </div>   
+               <button class="btn"><a href="ava max.html">play</a></button>
+          </div>
+        </div>
+</body>
+</html>
