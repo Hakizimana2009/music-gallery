@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audio file</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(to right, #43c6ac, #191654);
+        }
+        .player{
+            position: absolute;
+            width: 350px;
+            background: #f1f3f4;
+
+        }
+        .player .img-box{
+            position: relative;  
+            width: 200%;
+            height: 450px;
+            border-radius: 20px;
+
+        }
+        .player .img-box img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="player">
+        <div class="img-box">
+            <img src="maxresdefault.jpg" alt="img">
+        </div class="audio">
+        <audio src="Ava Max - Kings _ Queens [Official Music Video](MP3_160K).mp3" type="audio/mp3" controls></audio>
+    </div>
+</body>
+</html>
